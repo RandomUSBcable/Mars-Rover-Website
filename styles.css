@@ -1,28 +1,64 @@
+/*
+#091726
+#a42f3f
+#d85e3c
+#91aa5f
+*/
+
 body {
-    background-color: #f5f5dc; /* Light cream color */
+    background-color: #091726; /* Light cream color */
     font-family:Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
 
 .header {
+
     background-color: bisque;
     background-image: url('headerBackground.jpg'); 
     background-size: cover; 
-    color: white; 
+    color: rgb(242, 223, 162); 
     font-size: 2rem;
     text-align: center;
     min-height: 50vh;
     max-height: 70vh;
     padding: 20px;
+    transition-delay: 2s;
 }
 
-.body {
+.headerMenuBar{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 10vh;
+}
+
+h1{
+    font-weight: lighter;
+    font-size: 4rem;
+}
+
+.bodyContainer {
     padding: 20px;
+    background-color:#d85e3c ;
+    display:  flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
 }
 
 .bodyList{
     text-align: center;
+    border: 5px;
+    align-items: center;
+}
+
+.aboutUs{
+    max-width: 90vw;
+    border: #333;
+    border-radius: 0.5vh;
+    border-width: 10px;
 }
 
 .footerTop {
